@@ -1,0 +1,6 @@
+[submodule "TimelineJS3"]
+	path = TimelineJS3
+	url = git@github.com:casefoundation/TimelineJS3.git
+[submodule "fablib"]
+	path = fablib
+	url = https://github.com/NUKnightLab/fablib.git
