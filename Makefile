@@ -1,4 +1,3 @@
-
 initialize:
 	git submodule update --remote --merge
 	cd TimelineJS3 && pip install -r requirements.txt
@@ -6,3 +5,6 @@ initialize:
 
 build: initialize
 	cd TimelineJS3 && fab build
+
+deploy: build
+	s3_website push
